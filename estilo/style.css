@@ -230,6 +230,10 @@ aside ul{
     columns: 2;
     list-style: '\1F588' ;
 }
+aside a {
+
+    color: #0068B5;
+}
 
 
 footer {
