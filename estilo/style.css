@@ -1,0 +1,266 @@
+@charset "UTF=8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Young+Serif&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(../fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: 'gamer';
+    src: url(../fontes/gamer_2/Gamer.ttf);
+}
+
+
+:root {
+    --cor00: #80b3da;
+    --cor01: #0068b5;
+    --cor02: #0795fb;
+    --cor03: #00508d;
+    --coor04: #053e9b;
+    --cor05: #333333;
+    --cor06: #003e6d;
+
+
+    --font-family: 'Young Serif', serif;
+    --font-destaque: 'Libre Baskerville', serif;
+    --font-android: 'android', sans-serif;
+    --font-gamer: 'gamer', arial;
+
+
+
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: #80b3da;
+
+}
+a.externo:hover::after{
+    content: '\1f517';
+    
+   
+}
+
+
+
+header {
+    background-image: linear-gradient(to top, #004E8A, #0068b5 50%);
+    width: 100%;
+    padding-top: auto;
+    color: #80b3da;
+    min-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.538);
+
+
+}
+
+header>h1 {
+    color: #80b3da;
+    font-family: var(--font-family);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin: auto;
+
+
+
+}
+
+header>p,
+a {
+    color: #80b3da;
+    font-family: var(--font-family);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+
+
+
+}
+
+nav {
+
+    background-color: #00508d;
+
+    color: #80b3da;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.471);
+
+}
+
+nav>a {
+
+    text-decoration: none;
+    padding: 1px;
+    padding-right: 20px;
+    margin-left: 20px;
+
+
+}
+
+nav>a:hover {
+    background-color: #003e6d;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.595);
+    margin-left: 20px;
+    padding: auto;
+    transition-duration: 0.5s;
+    color: #ffffff;
+
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.375);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+main h1{
+
+   
+    background-image: linear-gradient(to right, #80b3da,#80b3da00); 
+    color: #004E8A;
+    border-radius: 5px;
+    margin:auto;
+    padding-left: 5px;
+    font-family: var(--font-android);
+
+}
+
+main h2 {
+    color: #003e6d;
+    font-family: var(--font-android);
+}
+
+main p {
+    color: #333333;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+
+
+
+}
+main strong{
+ 
+    color: #003e6d;
+
+}
+
+main a {
+    text-decoration: none;
+
+}
+
+main a:hover {
+    color: #003e6d;
+    text-decoration: underline;
+}
+
+main ul {
+    color: #333333;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+main li>abbr {
+    text-decoration: none;
+
+}
+
+
+
+main img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+aside{
+    
+    padding: 10px;
+    background-color: #80b3da;
+    border-radius: 0px 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.318);
+}
+aside p{
+    color: #003e6d;
+}
+aside h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: #003e6d;
+    color: #80b3da;
+    padding: 2px;
+    margin: -10px -10px 0px -10px;
+
+    border-top-right-radius: 10px;
+}
+aside ul{
+    list-style: '\1F573';
+    
+  color: #003e6d;
+    columns: 2;
+    list-style: '\1F588' ;
+}
+
+
+footer {
+    color: #80b3da;
+    background-color: #0068B5;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    border: solid #00508d;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.536);
+
+}
+
+footer a {
+    color: #80b3da;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+footer p {
+    padding: 1px;
+}
+
+footer a:hover {
+    color: #0795fb;
+    background-color: #003e6d;
+    margin-left: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.551);
+}
